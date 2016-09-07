@@ -535,6 +535,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="" name="quick_scripts" remote="jedi" revision="master" />
+  <project path="scripts" name="quick_scripts" remote="jedi" revision="master"> 
+    <copyfile src="scripts/clean" dest="clean" />
+  </project>
 
 </manifest>
