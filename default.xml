@@ -536,7 +536,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="scripts" name="quick_scripts" remote="jedi" revision="master"> 
-    <copyfile src="scripts/clean" dest="clean" />
+    <copyfile src="clean" dest="clean" />
   </project>
 
 </manifest>
